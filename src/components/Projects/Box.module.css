@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #446cb8c3 0%, rgba(32, 65, 124, 0.693) 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+}
+
+.image {
+  margin-bottom: 26px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a{
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  padding: 1px 22px;
+}
+
+.demo{
+    display: none;
+    background-color: #002a72;
+}
+.demoOpen{
+    display: flex;
+}
+.source{
+    background-color: #035fffa0;
+}
