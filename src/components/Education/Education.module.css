@@ -173,7 +173,17 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 470px) {
+  .container {
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+
   .icon{
     display: none;
   }
