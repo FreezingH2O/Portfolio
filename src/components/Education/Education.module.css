@@ -184,11 +184,5 @@
     padding-left: 0;
     margin-left: 0;
   }
-  .infoLi li {
-    padding-left: 1rem;
-  }
-  .infoLi h3 {font-size: 25px;}
-  .infoLi p {
-    font-size: 18px;
-  }
+
 }
