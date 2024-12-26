@@ -21,7 +21,7 @@ export const Education = ()=>{
           className={styles.icon}
         />
                     <h3>Chulalongkorn<br/>University</h3>
-                    <p>Bachelor of Engineering | Computer Engineering and Digital Technology</p><br/>
+                    <p>Bachelor of Engineering |<br/>Computer Engineering <br/>and Digital Technology</p><br/>
                     <p>First-year student</p>
                 </li>
                 <li  onMouseEnter={() => setPic(false)}>
