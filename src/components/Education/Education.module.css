@@ -172,3 +172,23 @@
     align-self:center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .icon{
+    display: none;
+  }
+  .icon2{
+    display: none;
+  }
+  .icon3{
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .infoLi li {
+    padding-left: 1rem;
+  }
+  .infoLi h3 {font-size: 25px;}
+  .infoLi p {
+    font-size: 18px;
+  }
+}
